@@ -3,7 +3,7 @@ import { FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const SocialIcons = () => {
   return (
-    <div className="fixed right-2 bottom-2  transform  flex flex-col space-y-1">
+    <div className="fixed right-12 bottom-6 md-[bottom-2] md-[right-2]  transform  flex flex-col space-y-1">
       <a
         href="https://twitter.com"
         target="_blank"

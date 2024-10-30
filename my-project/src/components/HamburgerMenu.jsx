@@ -5,7 +5,7 @@ const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed top-8 left-5">
+    <div className="fixed top-8 md-[top-8] md-[left-16] left-14">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="text-xl text-white bg-blue-500 p-1 rounded-sm focus:outline-none"
