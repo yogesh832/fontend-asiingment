@@ -3,38 +3,38 @@ import { FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const SocialIcons = () => {
   return (
-    <div className="fixed right-12 bottom-6 md-[bottom-2] md-[right-2]  transform  flex flex-col space-y-1">
+    <div className="fixed right-2 sm:right-10 bottom-6 flex flex-col space-y-2 md:space-y-2 lg:space-y-2">
       <a
         href="https://twitter.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-blue-500 text-white p-3 "
+        className="bg-blue-500 text-white p-2 transition-transform transform hover:scale-105 rounded-lg shadow-lg"
       >
-        <FaTwitter size={24} />
+        <FaTwitter size={36} />
       </a>
       <a
         href="https://linkedin.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-blue-700 text-white p-3 "
+        className="bg-blue-700 text-white p-2 transition-transform transform hover:scale-105 rounded-lg shadow-lg"
       >
-        <FaLinkedin size={24} />
+        <FaLinkedin size={36} />
       </a>
       <a
         href="https://instagram.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-pink-500 text-white p-3 "
+        className="bg-pink-500 text-white p-2 transition-transform transform hover:scale-105 rounded-lg shadow-lg"
       >
-        <FaInstagram size={24} />
+        <FaInstagram size={36} />
       </a>
       <a
         href="https://youtube.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-red-600 text-white p-3 "
+        className="bg-red-600 text-white p-2 transition-transform transform hover:scale-105 rounded-lg shadow-lg"
       >
-        <FaYoutube size={24} />
+        <FaYoutube size={36} />
       </a>
     </div>
   );
